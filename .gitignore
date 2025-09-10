@@ -1,3 +1,30 @@
+﻿# === Secrets / Keys / Credentials ===
+*.key
+*.pem
+*.der
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdb
+id_*            # SSH keys
+!*.pub          # allow public keys
+*.crt           # коментирай този ред ако ИСКАШ публични .crt в repo
+
+# Env / tokens
+.env
+.env.*
+*.env
+*.secret
+*.token
+*.pwd
+
+# Local PKI dirs (keep out of Git)
+pki/
+secrets/
+certs/
+
+# System clutter
 .DS_Store
 Thumbs.db
 *.log
