@@ -1,0 +1,12 @@
+# Security Notes (concise)
+- **DNSSEC/HSTS/HTTPS enforce**: да се активират при първи публичен домейн/хост.
+- **Secrets**: никакви `.key`, `.pem`, `.p12`, `.jks`, `.env`, реални токени в git. Използвайте SOPS/age/1Password/Bitwarden. 
+- **.gitignore** (добавете/потвърдете):
+  - `.venv/`
+  - `*.key` `*.pem` `*.p12` `*.jks` `*.der` `*.crt`
+  - `.env` `.env.*` `*.token` `*.secret` `*.creds`
+  - `__pycache__/` `*.pyc`
+  - `*.log` `logs/` `reports/`
+  - `dist/` `build/` `*.egg-info/`
+- **Host hardening**: UFW allow:22, deny inbound останалото; auto-updates; no password SSH в дългосрочен план.
+- **Containers**: non-root where possible; read-only fs за services; pinned digests; no secret envs.
