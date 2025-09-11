@@ -1,0 +1,9 @@
+CreatedAt: 2025-09-11T08:54:47
+ChatPlatform: ChatGPT
+ChatLink: 
+Topic: foritech-secure-system — env hardening (Ubuntu 24.04 + RTX 3080 + Docker GPU), tests green, docs sync
+Author: forrybg
+Reviewer: assistant
+RepoURL: https://github.com/foritech-secure-system/forisecure-notes
+RepoBranch: main
+LastCommitSha: 21f0022
