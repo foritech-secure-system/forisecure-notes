@@ -18,3 +18,6 @@ This site is intentionally **unlisted** (`robots.txt` + `noindex`). Share the di
 
 > **SYNC (live):** https://foritech-secure-system.github.io/forisecure-notes/__sync_6544fda8550d/SYNC.md
 
+
+## CI
+[![secret-scan](https://github.com/foritech-secure-system/forisecure-notes/actions/workflows/secret-scan.yml/badge.svg)](https://github.com/foritech-secure-system/forisecure-notes/actions/workflows/secret-scan.yml)
