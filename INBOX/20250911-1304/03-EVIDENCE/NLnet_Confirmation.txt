@@ -1,0 +1,5 @@
+NLnet Commons Fund — Confirmation (done)
+Code: 2025-10-218
+Project: Foritech Secure System — PQC-ready PKI/TLS toolkit with optional DID/SSI + ZK login
+Amount requested: ~€49,800
+Status: Confirmation email received with abstract and budget.
