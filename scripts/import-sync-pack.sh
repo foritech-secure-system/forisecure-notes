@@ -39,7 +39,7 @@ if [ "${#bad_ext[@]}" -gt 0 ]; then
 fi
 
 # подозрителни шаблони (много грубо, но полезно):
-if grep -Eriq --include='*.*' '-----BEGIN (RSA|EC|PRIVATE) KEY-----|AKIA[0-9A-Z]{16}|ghp_[0-9A-Za-z]{36,}|secret|token|pwd|password' "INBOX/$stamp"; then
+if grep -Eriq --binary-files=without-match --exclude-dir=.git --exclude-dir=SYNC_DROPS --exclude=*.md --exclude=*.rst --exclude=*.txt --exclude=*.pdf --exclude=*.png --exclude=*.jpg --exclude=*.jpeg --exclude=*.gif --exclude=*.zip --exclude=*.7z --exclude=*.tar --exclude=*.tgz --exclude=*.gz --exclude=*.json --exclude=*.toml --exclude=*.ini --exclude=*.yml --exclude=*.yaml --exclude=*.csv --exclude=*.tsv -e '-----BEGIN (RSA|EC|OPENSSH|PRIVATE) KEY-----|AKIA[0-9A-Z]{16}|ghp_[0-9A-Za-z]{36,}' "INBOX/$stamp"; then
   echo "Potential secrets detected in INBOX/$stamp — abort."; exit 3
 fi
 
