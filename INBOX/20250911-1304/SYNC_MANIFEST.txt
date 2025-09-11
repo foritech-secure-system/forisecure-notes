@@ -1,0 +1,12 @@
+CreatedAt: 2025-09-11T12:47:03.532875+03:00
+ChatPlatform: ChatGPT (web)
+ChatLink: 
+Topic: Foritech Secure System — sync notes (funding submissions)
+Author: forrybg
+Reviewer: assistant
+RepoURL: https://github.com/foritech-secure-system/forisecure-notes
+RepoBranch: main
+LastCommitSha: 
+Notes:
+  - NLnet (Commons Fund) request sent (code: 2025-10-218)
+  - DIGITAL-ECCC-2025-DEPLOY-CYBER-08 PUBLICPQC proposal submitted (ID: 101285505, Acronym: FPQCX509-TRL7)

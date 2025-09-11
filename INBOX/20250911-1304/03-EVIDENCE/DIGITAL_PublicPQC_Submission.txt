@@ -1,0 +1,7 @@
+DIGITAL-ECCC-2025-DEPLOY-CYBER-08 (PUBLICPQC) — Submission (done)
+Proposal ID: 101285505
+Acronym: FPQCX509-TRL7
+Duration: 6 months; Total: €80,999; EU 50%: €40,499.50
+Coordinator: VENETKA’21kft (HU)
+Focus: TRL-7 hybrid X.509 pilots (A/B), interop tests, ACME/CT/CR helpers.
+eReceipt timestamp: 2025-09-11T05:23:05+02:00
